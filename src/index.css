@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .navBar-btn{
+    @apply transform transition duration-500
+  }
+  .navBar-btn:hover{
+    @apply scale-150
+  }
+  .product-design{
+    @apply text-center text-gray-600
+  }
+}
